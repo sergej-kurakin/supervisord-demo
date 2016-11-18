@@ -40,3 +40,11 @@ Files:
 
 * /etc/supervisor/conf.d/failer.conf
 * /home/user/failer.php
+
+## Group file example
+
+Demonstrated Group functionality with two processes `myprocess` and `myother` in group `mygroup`.
+
+Files:
+
+* /etc/supervisor/conf.d/group.conf
