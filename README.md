@@ -41,6 +41,15 @@ Files:
 * /etc/supervisor/conf.d/failer.conf
 * /home/user/failer.php
 
+## Totally failing PHP process
+
+Demonstrates how supervisor restarts failed process and marks as failed if it continues to fail.
+
+Files:
+
+* /etc/supervisor/conf.d/totalfailer.conf
+* /home/user/totalfailer.php
+
 ## Group file example
 
 Demonstrated Group functionality with two processes `myprocess` and `myother` in group `mygroup`.
